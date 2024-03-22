@@ -57,14 +57,14 @@ function Drawers({ children, navItens, title }: Props) {
     <Drawer
       open={displayMenu.value}
       onClose={() => displayMenu.value = false}
-      aside={displayMenu.value && (
+      aside={
         <Aside
           title={title}
           onClose={() => displayMenu.value = false}
         >
           <Menu navItens={navItens} />
         </Aside>
-      )}
+      }
     >
       {children}
     </Drawer>
