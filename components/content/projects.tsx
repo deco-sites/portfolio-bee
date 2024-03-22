@@ -40,6 +40,7 @@ function projects({ sections, title }: Props) {
           <div class="flex flex-col gap-4 rounded-3xl bg-primary w-[375px] h-[600px]">
             <Image
               src={image}
+              alt={title}
               width={375}
               height={250}
               decoding={"async"}
