@@ -3,7 +3,8 @@ import type { JSX } from "preact";
 
 export type AvailableIcons =
   | "url"
-  | "github";
+  | "github"
+  | "linkedin";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   /**
