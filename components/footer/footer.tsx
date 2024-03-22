@@ -30,7 +30,7 @@ function footer(
     <footer class="flex flex-col max-w-[1300px] m-auto w-11/12 gap-4 py-8 text-secondary">
       <div class="flex items-center justify-between flex-wrap">
         <span>{name}</span>
-        <div class="flex items-center justify-start gap-4">
+        <div class="flex flex-wrap items-center justify-start gap-4">
           {number && <span>{number}</span>}
           {email && <span>{email}</span>}
           <a

@@ -22,7 +22,7 @@ export interface Props {
 
 function Header({ navItens, title }: Props) {
   return (
-    <header class="flex flex-col max-w-[1300px] m-auto w-11/12 py-4">
+    <header class="flex flex-col max-w-[1300px] m-auto w-11/12 py-4 text-secondary">
       <Drawers navItens={navItens} title={title}>
         <div class="flex items-center justify-between">
           <MenuButton />
