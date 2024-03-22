@@ -37,6 +37,13 @@
     animation-play-state: paused;
   }
 
+  .border-gradient {
+    border-image: linear-gradient(180deg, #e70faa, #00c0fd) 1;
+  }
+  .bg-gradient {
+    background: linear-gradient(#e70faa, #00c0fd);
+  }
+
   .width-container {
     --container-width: 100%;
   }
