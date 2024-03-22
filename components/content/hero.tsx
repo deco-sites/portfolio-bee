@@ -7,7 +7,11 @@ export interface Props {
    * @format html
    * @description text to be rendered */
   text: string;
+  /**
+   * @description the dimensions must be (320px) x (320px)
+   */
   image: LiveImage;
+  alt: string;
 }
 
 function hero({ text, image }: Props) {
@@ -19,6 +23,7 @@ function hero({ text, image }: Props) {
           src={image}
           width={320}
           height={320}
+          preload={true}
           class="w-[320px] h-[320px] rounded-full border-[10px] border-gradient bg-gradient"
         />
       </div>

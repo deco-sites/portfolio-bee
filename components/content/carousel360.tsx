@@ -41,6 +41,8 @@ function carousel360({ images, interval, isPerItem, title }: Props) {
                 alt={alt}
                 width={width}
                 height={height}
+                loading={"lazy"}
+                decoding={"async"}
               />
             </Slider.Item>
           ))}

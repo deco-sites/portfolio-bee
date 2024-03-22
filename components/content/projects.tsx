@@ -42,6 +42,8 @@ function projects({ sections, title }: Props) {
               src={image}
               width={375}
               height={250}
+              decoding={"async"}
+              loading={"lazy"}
               class="w-[375px] h-[250px] rounded-t-3xl"
             />
             <div class="flex flex-col gap-4 px-2 items-center justify-between h-full pb-5">
