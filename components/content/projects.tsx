@@ -18,11 +18,11 @@ export interface Project {
   text?: string;
   preview?: {
     text: string;
-    url: string;
+    url?: string;
   };
   repository?: {
     text: string;
-    url: string;
+    url?: string;
   };
 }
 
@@ -51,9 +51,10 @@ function projects({ sections, title }: Props) {
               <h3 class="text-2xl font-bold">{title}</h3>
               {text && <div dangerouslySetInnerHTML={{ __html: text }} />}
               <div class="flex justify-between gap-6">
-                {preview && (
+                {preview && preview.url && (
                   <a
                     href={preview.url}
+                    target="_blank"
                     class="flex flex-row items-center gap-4"
                   >
                     <Icon id="url" width={18} height={18} />
@@ -62,9 +63,10 @@ function projects({ sections, title }: Props) {
                     </span>
                   </a>
                 )}
-                {repository && (
+                {repository && repository.url && (
                   <a
                     href={repository.url}
+                    target="_blank"
                     class="flex flex-row items-center gap-4"
                   >
                     <Icon
