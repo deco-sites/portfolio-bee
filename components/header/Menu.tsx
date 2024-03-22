@@ -11,7 +11,7 @@ function Menu({ navItens }: Props) {
       {navItens.map(({ icon, text, url, alt }) => (
         <a
           href={url}
-          class="flex justify-start gap-4 border-b border-secondary"
+          class="flex justify-start gap-4 border-b border-secondary py-4"
         >
           <Image class="ml-2" src={icon} alt={alt} width={24} height={24} />
           <span>{text}</span>
