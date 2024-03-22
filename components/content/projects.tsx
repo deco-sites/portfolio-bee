@@ -2,6 +2,9 @@ import type { ImageWidget as LiveImage } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon from "../ui/Icon.tsx";
 
+/**
+ * @titleBy title
+ */
 export interface Project {
   /**
    * @description the dimensions must be (375px) x (250px)
