@@ -7,6 +7,8 @@ import * as $Drawer from "./islands/Drawer.tsx";
 import * as $Drawers from "./islands/Drawers.tsx";
 import * as $MenuButton from "./islands/MenuButton.tsx";
 import * as $SliderJS from "./islands/SliderJS.tsx";
+import * as $SliderJSInfinite from "./islands/SliderJSInfinite.tsx";
+import * as $heroWhats from "./islands/heroWhats.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -18,6 +20,8 @@ const manifest = {
     "./islands/Drawers.tsx": $Drawers,
     "./islands/MenuButton.tsx": $MenuButton,
     "./islands/SliderJS.tsx": $SliderJS,
+    "./islands/SliderJSInfinite.tsx": $SliderJSInfinite,
+    "./islands/heroWhats.tsx": $heroWhats,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

@@ -1,0 +1,1 @@
+export { default } from "deco-sites/portfolio-bee/components/footerV2/footer.tsx"

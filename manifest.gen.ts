@@ -4,37 +4,43 @@
 
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$$$$8 from "./sections/content/carousel360.tsx";
-import * as $$$$$$7 from "./sections/content/EmailMe.tsx";
-import * as $$$$$$9 from "./sections/content/hero.tsx";
-import * as $$$$$$10 from "./sections/content/projects.tsx";
+import * as $$$$$$10 from "./sections/content/carousel360.tsx";
+import * as $$$$$$8 from "./sections/content/EmailMe.tsx";
+import * as $$$$$$11 from "./sections/content/hero.tsx";
+import * as $$$$$$9 from "./sections/content/HeroWhats.tsx";
+import * as $$$$$$12 from "./sections/content/projects.tsx";
 import * as $$$$$$0 from "./sections/Footer.tsx";
-import * as $$$$$$11 from "./sections/footer/Footer.tsx";
+import * as $$$$$$13 from "./sections/footer/Footer.tsx";
+import * as $$$$$$14 from "./sections/footer/FooterV2.tsx";
 import * as $$$$$$1 from "./sections/Header/Header.tsx";
-import * as $$$$$$2 from "./sections/Hero.tsx";
-import * as $$$$$$3 from "./sections/ItWorks.tsx";
-import * as $$$$$$12 from "./sections/myHero.tsx";
-import * as $$$$$$4 from "./sections/ParagraphList.tsx";
-import * as $$$$$$13 from "./sections/sections/ItWorks.tsx";
-import * as $$$$$$5 from "./sections/SimpleTextList.tsx";
-import * as $$$$$$6 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$2 from "./sections/Header/HeaderV2.tsx";
+import * as $$$$$$3 from "./sections/Hero.tsx";
+import * as $$$$$$4 from "./sections/ItWorks.tsx";
+import * as $$$$$$15 from "./sections/myHero.tsx";
+import * as $$$$$$5 from "./sections/ParagraphList.tsx";
+import * as $$$$$$16 from "./sections/sections/ItWorks.tsx";
+import * as $$$$$$6 from "./sections/SimpleTextList.tsx";
+import * as $$$$$$7 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
-    "deco-sites/portfolio-bee/sections/content/carousel360.tsx": $$$$$$8,
-    "deco-sites/portfolio-bee/sections/content/EmailMe.tsx": $$$$$$7,
-    "deco-sites/portfolio-bee/sections/content/hero.tsx": $$$$$$9,
-    "deco-sites/portfolio-bee/sections/content/projects.tsx": $$$$$$10,
+    "deco-sites/portfolio-bee/sections/content/carousel360.tsx": $$$$$$10,
+    "deco-sites/portfolio-bee/sections/content/EmailMe.tsx": $$$$$$8,
+    "deco-sites/portfolio-bee/sections/content/hero.tsx": $$$$$$11,
+    "deco-sites/portfolio-bee/sections/content/HeroWhats.tsx": $$$$$$9,
+    "deco-sites/portfolio-bee/sections/content/projects.tsx": $$$$$$12,
     "deco-sites/portfolio-bee/sections/Footer.tsx": $$$$$$0,
-    "deco-sites/portfolio-bee/sections/footer/Footer.tsx": $$$$$$11,
+    "deco-sites/portfolio-bee/sections/footer/Footer.tsx": $$$$$$13,
+    "deco-sites/portfolio-bee/sections/footer/FooterV2.tsx": $$$$$$14,
     "deco-sites/portfolio-bee/sections/Header/Header.tsx": $$$$$$1,
-    "deco-sites/portfolio-bee/sections/Hero.tsx": $$$$$$2,
-    "deco-sites/portfolio-bee/sections/ItWorks.tsx": $$$$$$3,
-    "deco-sites/portfolio-bee/sections/myHero.tsx": $$$$$$12,
-    "deco-sites/portfolio-bee/sections/ParagraphList.tsx": $$$$$$4,
-    "deco-sites/portfolio-bee/sections/sections/ItWorks.tsx": $$$$$$13,
-    "deco-sites/portfolio-bee/sections/SimpleTextList.tsx": $$$$$$5,
-    "deco-sites/portfolio-bee/sections/Theme/Theme.tsx": $$$$$$6,
+    "deco-sites/portfolio-bee/sections/Header/HeaderV2.tsx": $$$$$$2,
+    "deco-sites/portfolio-bee/sections/Hero.tsx": $$$$$$3,
+    "deco-sites/portfolio-bee/sections/ItWorks.tsx": $$$$$$4,
+    "deco-sites/portfolio-bee/sections/myHero.tsx": $$$$$$15,
+    "deco-sites/portfolio-bee/sections/ParagraphList.tsx": $$$$$$5,
+    "deco-sites/portfolio-bee/sections/sections/ItWorks.tsx": $$$$$$16,
+    "deco-sites/portfolio-bee/sections/SimpleTextList.tsx": $$$$$$6,
+    "deco-sites/portfolio-bee/sections/Theme/Theme.tsx": $$$$$$7,
   },
   "apps": {
     "deco-sites/portfolio-bee/apps/decohub.ts": $$$$$$$$$$$0,
